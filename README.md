@@ -1,33 +1,34 @@
-# 🧠 Interactive Quiz Application
+# Interactive Quiz App
 
-A dynamic, interactive Quiz Application built to test user knowledge across various topics with real-time scoring, instant feedback, and a seamless user experience.
+A small desktop quiz application built with Python and Tkinter. Choose either of the two included quizzes or let the app pick one at random, answer the multiple-choice questions, and see your score when you finish.
 
----
+## Features
 
-## 🚀 Features
+- Two built-in quizzes with three questions each
+- Choose a quiz or start a randomly selected quiz
+- Multiple-choice answers and score tracking
+- End-of-quiz screen with the score and correct answers
 
-* **Multiple Quiz Categories:** Take quizzes across different topics and difficulty levels.
-* **Real-time Scoring & Feedback:** Instantly see whether your answer is correct along with updated score tracking.
-* **Timer Functionality:** Interactive countdown timers for each question or total quiz duration.
-* **Result Summary:** Detailed breakdown of performance, correct answers, and final percentage upon completion.
-* **Clean & Responsive UI:** Designed for a smooth and intuitive experience across desktop and mobile screens.
+## Requirements
 
----
+- Python 3
+- Tkinter (included with most standard Python installations)
 
-## 🛠️ Tech Stack
+## Run
 
-* **Language:** Java / JavaScript *(Edit based on your stack)*
-* **Frontend:** HTML5, CSS3, JavaScript / React / Swing
-* **Backend:** Node.js / Java Spring Boot *(if applicable)*
-* **Data Storage:** JSON / MySQL / In-Memory State
+```bash
+python main.py
+```
 
----
+On some systems, use `python3 main.py` instead.
 
-## 📁 Project Architecture
+## Project structure
 
 ```text
-src/
- ├── components/     (UI Components / Views)
- ├── data/           (Quiz Questions & Answers dataset)
- ├── logic/          (Quiz state management & scoring engine)
- └── Main            (Application entry point)
+python-quiz-app/
+├── main.py
+├── README.md
+└── LICENSE
+```
+
+Questions and answer choices are currently defined in `main.py`; the app does not require a database or network connection.
